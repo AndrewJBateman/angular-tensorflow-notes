@@ -71,8 +71,6 @@ Code to experiment with machine learning using [Tensorflow.js](https://www.tenso
 
 * Status: not compiling.
 
-* To-Do: change angular-cli to angular.json.
-
 * To-Do: Correct: Namespace has no exported member, loadModel does not exist.., fromPixels does not exist.
 
 ## Inspiration
