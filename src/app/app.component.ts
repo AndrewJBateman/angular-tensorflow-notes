@@ -16,7 +16,7 @@ export class AppComponent implements OnInit {
   model: tf.Model;
   predictions: any;
 
-  @ViewChild(DrawableDirective) canvas;
+  @ViewChild(DrawableDirective, {static: false}) canvas;
 
   ngOnInit() {
     this.trainNewModel();
@@ -41,7 +41,7 @@ export class AppComponent implements OnInit {
     // Train
     await this.linearModel.fit(xs, ys)
 
-    console.log('model trained!')
+    console.log('model trained')
   }
 
   linearPrediction(val) {
@@ -61,7 +61,7 @@ export class AppComponent implements OnInit {
 
     const pred = await tf.tidy(() => {
 
-      // Convert the canvas pixels to 
+      // Convert the canvas pixels to
       let img = tf.fromPixels(imageData, 1);
       img = img.reshape([1, 28, 28, 1]);
       img = tf.cast(img, 'float32');
@@ -70,7 +70,7 @@ export class AppComponent implements OnInit {
       const output = this.model.predict(img) as any;
 
       // Save predictions on the component
-      this.predictions = Array.from(output.dataSync()); 
+      this.predictions = Array.from(output.dataSync());
     });
 
   }
