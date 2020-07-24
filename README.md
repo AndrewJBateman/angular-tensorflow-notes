@@ -1,43 +1,43 @@
-# Angular TensorFlow Notepad
+# :zap: Angular TensorFlow Notepad
 
-Code to experiment with machine learning using [Tensorflow.js](https://www.tensorflow.org/js), starting with recognising numbers. Tutorial code from Fireship (see ref in 'Inspiration') cloned then updated to Angular 8. All dependencies updated with no vulnerabilities. Requires some fixes to work, due to angular updates. The plan is to use this to try new Tensorflow ideas.
+* Code to experiment with machine learning using [Tensorflow.js](https://www.tensorflow.org/js), starting with recognising numbers. Tutorial code from Fireship (see ref in 'Inspiration') cloned then updated to Angular 10. All dependencies updated with no vulnerabilities. Requires some fixes to work, due to angular updates. The plan is to use this to try new Tensorflow ideas.
 
 *** Note: to open web links in a new window use: _ctrl+click on link_**
 
-## Table of contents
+## :page_facing_up: Table of contents
 
-* [General info](#general-info)
-* [Screenshots](#screenshots)
-* [Technologies](#technologies)
-* [Setup](#setup)
-* [Features](#features)
-* [Status](#status)
-* [Inspiration](#inspiration)
-* [Contact](#contact)
+* [:zap: Angular TensorFlow Notepad](#zap-angular-tensorflow-notepad)
+  * [:page_facing_up: Table of contents](#page_facing_up-table-of-contents)
+  * [:books: General info](#books-general-info)
+  * [:camera: Screenshots](#camera-screenshots)
+  * [:signal_strength: Technologies](#signal_strength-technologies)
+  * [:floppy_disk: Setup](#floppy_disk-setup)
+  * [:computer: Code Examples](#computer-code-examples)
+  * [:cool: Features](#cool-features)
+  * [:clipboard: Status & To-Do List](#clipboard-status--to-do-list)
+  * [:clap: Inspiration](#clap-inspiration)
+  * [:envelope: Contact](#envelope-contact)
 
-## General info
+## :books: General info
 
-"_TensorFlow.js is an open-source hardware-accelerated JavaScript library for training and deploying machine learning models._"
+* "_TensorFlow.js is an open-source hardware-accelerated JavaScript library for training and deploying machine learning models._"
 
-## Screenshots
+## :camera: Screenshots
 
 ![Example screenshot](./img/.png)
 
-## Technologies
+## :signal_strength: Technologies
 
-* [Angular v8.0.2](https://angular.io/)
-
+* [Angular v10](https://angular.io/)
 * [Tensorflow](https://js.tensorflow.org)
-
-* [@tensorflow/tfjs v1.2.2](https://www.npmjs.com/package/@tensorflow/tfjs).
-
+* [@tensorflow/tfjs v1](https://www.npmjs.com/package/@tensorflow/tfjs).
 * [ng2-charts](https://www.npmjs.com/package/ng2-charts)
 
-## Setup
+## :floppy_disk: Setup
 
 * when fixed: type `ng serve` then navigate to port 4200.
 
-## Code Examples
+## :computer: Code Examples
 
 * tba
 
@@ -63,22 +63,20 @@ Code to experiment with machine learning using [Tensorflow.js](https://www.tenso
   }
 ```
 
-## Features
+## :cool: Features
 
 * to follow
 
-## Status & To-Do List
+## :clipboard: Status & To-Do List
 
-* Status: not compiling.
-
+* Status: not compiling due to 3 errors
 * To-Do: Correct: Namespace has no exported member, loadModel does not exist.., fromPixels does not exist.
 
-## Inspiration
+## :clap: Inspiration
 
 * [Fireship, TensorFlow.js Quick Start](https://www.youtube.com/watch?v=Y_XM3Bu-4yc)
-
 * [github repo for the above](https://github.com/AngularFirebase/97-tensorflowjs-quick-start)
 
-## Contact
+## :envelope: Contact
 
-Repo created by [ABateman](https://www.andrewbateman.org) - feel free to contact me!
+* Repo created by [ABateman](https://www.andrewbateman.org) - you are welcome to [send me a message](https://andrewbateman.org/contact)
