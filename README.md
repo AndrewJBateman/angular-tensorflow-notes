@@ -1,6 +1,6 @@
 # :zap: Angular TensorFlow Notepad
 
-* Code to experiment with machine learning using [Tensorflow.js](https://www.tensorflow.org/js), starting with recognising numbers. Tutorial code from Fireship (see ref in 'Inspiration') cloned then updated to Angular 10. All dependencies updated with no vulnerabilities. Requires some fixes to work, due to angular updates. The plan is to use this to try new Tensorflow ideas.
+* Code to experiment with machine learning using [Tensorflow.js](https://www.tensorflow.org/js), starting with recognising numbers. Tutorial code from Fireship (see ref in 'Inspiration') cloned then updated to Angular 11. All dependencies updated. Requires some fixes to work, due to updates. The plan is to use this to try new Tensorflow ideas.
 
 *** Note: to open web links in a new window use: _ctrl+click on link_**
 
@@ -28,14 +28,13 @@
 
 ## :signal_strength: Technologies
 
-* [Angular v10](https://angular.io/)
-* [Tensorflow](https://js.tensorflow.org)
-* [@tensorflow/tfjs v1](https://www.npmjs.com/package/@tensorflow/tfjs).
+* [Angular v11](https://angular.io/)
+* [@tensorflow/tfjs v3](https://www.npmjs.com/package/@tensorflow/tfjs), javascript version of [Tensorflow](https://js.tensorflow.org)
 * [ng2-charts](https://www.npmjs.com/package/ng2-charts)
 
 ## :floppy_disk: Setup
 
-* when fixed: type `ng serve` then navigate to port 4200.
+* `ng serve` then navigate to port 4200.
 
 ## :computer: Code Examples
 
@@ -69,7 +68,7 @@
 
 ## :clipboard: Status & To-Do List
 
-* Status: not compiling due to 3 errors
+* Status: not compiling due to errors from tensorflow update to v2
 * To-Do: Correct: Namespace has no exported member, loadModel does not exist.., fromPixels does not exist.
 
 ## :clap: Inspiration
@@ -77,6 +76,10 @@
 * [Fireship, TensorFlow.js Quick Start](https://www.youtube.com/watch?v=Y_XM3Bu-4yc)
 * [github repo for the above](https://github.com/AngularFirebase/97-tensorflowjs-quick-start)
 
+## :file_folder: License
+
+* This project is licensed under the terms of the MIT license.
+
 ## :envelope: Contact
 
-* Repo created by [ABateman](https://www.andrewbateman.org) - you are welcome to [send me a message](https://andrewbateman.org/contact)
+* Repo created by [ABateman](https://github.com/AndrewJBateman), email: gomezbateman@yahoo.com
