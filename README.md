@@ -68,7 +68,7 @@
 
 ## :clipboard: Status & To-Do List
 
-* Status: not compiling due to errors from tensorflow update to v2
+* Status: not compiling due to errors from tensorflow update to v3
 * To-Do: Correct: Namespace has no exported member, loadModel does not exist.., fromPixels does not exist.
 
 ## :clap: Inspiration
