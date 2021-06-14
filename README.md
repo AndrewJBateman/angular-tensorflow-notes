@@ -1,8 +1,12 @@
 # :zap: Angular TensorFlow Notepad
 
-* Code to experiment with machine learning using [Tensorflow.js](https://www.tensorflow.org/js), starting with recognising numbers. Tutorial code from Fireship (see ref in 'Inspiration') cloned then updated to Angular 11. All dependencies updated. Requires some fixes to work, due to updates. The plan is to use this to try new Tensorflow ideas.
+* Code to experiment with machine learning using [Tensorflow.js](https://www.tensorflow.org/js), starting with recognising numbers. Tutorial code from Fireship (see ref in 'Inspiration') cloned then updated to Angular 12. All dependencies updated. Requires some fixes to work, due to updates. The plan is to use this to try new Tensorflow ideas.
+* **Note:** to open web links in a new window use: _ctrl+click on link_
 
-*** Note: to open web links in a new window use: _ctrl+click on link_**
+![GitHub repo size](https://img.shields.io/github/repo-size/AndrewJBateman/angular-tensorflow-notes?style=plastic)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/AndrewJBateman/angular-tensorflow-notes?style=plastic)
+![GitHub Repo stars](https://img.shields.io/github/stars/AndrewJBateman/angular-tensorflow-notes?style=plastic)
+![GitHub last commit](https://img.shields.io/github/last-commit/AndrewJBateman/angular-tensorflow-notes?style=plastic)
 
 ## :page_facing_up: Table of contents
 
@@ -16,6 +20,7 @@
   * [:cool: Features](#cool-features)
   * [:clipboard: Status & To-Do List](#clipboard-status--to-do-list)
   * [:clap: Inspiration](#clap-inspiration)
+  * [:file_folder: License](#file_folder-license)
   * [:envelope: Contact](#envelope-contact)
 
 ## :books: General info
@@ -28,7 +33,7 @@
 
 ## :signal_strength: Technologies
 
-* [Angular v11](https://angular.io/)
+* [Angular v12](https://angular.io/)
 * [@tensorflow/tfjs v3](https://www.npmjs.com/package/@tensorflow/tfjs), javascript version of [Tensorflow](https://js.tensorflow.org)
 * [ng2-charts](https://www.npmjs.com/package/ng2-charts)
 
