@@ -1,6 +1,6 @@
 # :zap: Angular TensorFlow Notepad
 
-* Code to experiment with machine learning using [Tensorflow.js](https://www.tensorflow.org/js), starting with recognising numbers. Tutorial code from Fireship (see ref in 'Inspiration') cloned then updated to Angular 12. All dependencies updated. Requires some fixes to work, due to updates. The plan is to use this to try new Tensorflow ideas.
+* Code to experiment with machine learning using [Tensorflow.js](https://www.tensorflow.org/js), starting with recognising numbers. Tutorial code from Fireship (see ref in 'Inspiration') cloned then updated to Angular 13. All dependencies updated. Requires some fixes to work, due to updates. The plan is to use this to try new Tensorflow ideas.
 * **Note:** to open web links in a new window use: _ctrl+click on link_
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/AndrewJBateman/angular-tensorflow-notes?style=plastic)
@@ -33,11 +33,13 @@
 
 ## :signal_strength: Technologies
 
-* [Angular v12](https://angular.io/)
+* [Angular v13](https://angular.io/)
 * [@tensorflow/tfjs v3](https://www.npmjs.com/package/@tensorflow/tfjs), javascript version of [Tensorflow](https://js.tensorflow.org)
-* [ng2-charts](https://www.npmjs.com/package/ng2-charts)
+* [ng2-charts v3](https://www.npmjs.com/package/ng2-charts)
 
 ## :floppy_disk: Setup
+
+* `npm i` to install dependenciesy
 
 * `ng serve` then navigate to port 4200.
 
