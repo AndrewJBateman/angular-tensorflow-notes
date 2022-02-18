@@ -88,7 +88,7 @@ export class AppComponent implements OnInit {
   }
 
   async predict(imageData: ImageData) {
-    const pred = await tf.tidy(() => {
+    const pred = tf.tidy(() => {
       // Convert the canvas pixels to
       let img = tf.fromPixels(imageData, 1);
       img = img.reshape([1, 28, 28, 1]);
